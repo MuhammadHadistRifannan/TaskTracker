@@ -1,0 +1,2 @@
+D:\site\TaskTracker\bin\Release\net8.0\win-x64\publish\TaskTracker.pdb
+D:\site\TaskTracker\bin\Release\net8.0\win-x64\publish\TaskTracker.exe

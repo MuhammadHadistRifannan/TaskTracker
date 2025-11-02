@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+        <PublishSingleFile>true</PublishSingleFile>
+        <SelfContained>true</SelfContained>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier> <!-- Replace with your target runtime -->
+        <PublishTrimmed>true</PublishTrimmed>
+  <NoWarn>$(NoWarn);IL2026</NoWarn>
+  <NoWarn>$(NoWarn);CS8600</NoWarn>
+  <NoWarn>$(NoWarn);CS0168</NoWarn>
+  <NoWarn>$(NoWarn);CS8602</NoWarn>
+  <NoWarn>$(NoWarn);CS8601</NoWarn>
+  <NoWarn>$(NoWarn);CS8603</NoWarn>
+  <NoWarn>$(NoWarn);CS8604</NoWarn>
+
+  <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+  <TrimMode>link</TrimMode>
+  <IlcDisableReflection>false</IlcDisableReflection>
+    <EnableControlFlowGuard>false</EnableControlFlowGuard>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+</Project>
